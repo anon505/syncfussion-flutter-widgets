@@ -4364,7 +4364,7 @@ class SfPdfViewerState extends State<SfPdfViewer> with WidgetsBindingObserver {
       final TextSelectionMenuLocation location =
           _determineContextMenuLocation();
       _calculateContextMenuBounds(location);
-      _showTextSelectionMenu();
+      _hideTextSelectionMenu();
     } else {
       _hideTextSelectionMenu();
     }
